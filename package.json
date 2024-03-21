@@ -1,0 +1,59 @@
+{
+  "name": "voluptatibusrepudiandae",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "author": "KeithKozey",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dolor",
+    "doloribus",
+    "pariatur",
+    "officiis",
+    "expedita",
+    "adipisci",
+    "voluptas",
+    "builder",
+    "iusto"
+  ],
+  "description": "JSON schema generator with a possibility to merge schemas",
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "@types/node": "^14.6.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.5",
+    "typescript": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NoahGreenholt/voluptatibusrepudiandae.git"
+  },
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "preset": "ts-jest",
+    "testMatch": [
+      "**/tests/**/*.spec.+(ts|tsx|js)"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "diagnostics": false
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/NoahGreenholt/voluptatibusrepudiandae.git/issues"
+  }
+}
